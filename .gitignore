@@ -26,10 +26,10 @@ test*.db
 # **/migrations/
 
 # Media and Static files
-media/
-staticfiles/
-static/
-assets/
+*/media/
+*/static/
+*/staticfiles/
+*/public/
 build/
 
 # =========================
@@ -46,19 +46,11 @@ config.json
 # Virtual Environments
 # =========================
 .venv/
-venv/
-ENV/
-env/
-env.bak/
-venv.bak/
 
 # =========================
 # IDEs / Editors
 # =========================
 .vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
 
 # =========================
 # OS Specific
