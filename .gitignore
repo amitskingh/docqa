@@ -107,51 +107,11 @@ dmypy.json
 .pytype/
 
 # =========================
-# Jupyter Notebook
-# =========================
-.ipynb_checkpoints
-
-# =========================
-# Docker
-# =========================
-docker-compose.override.yml
-.docker/
-*.pid
-
-# =========================
 # VS Code Django extension cache
 # =========================
 .vscode/settings.json
 .vscode/.ropeproject/
 
-# =========================
-# Node-related (if using frontend inside Django)
-# =========================
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-.pnpm-debug.log*
-
-# =========================
-# Gunicorn / Celery / Logs
-# =========================
-*.pid
-celerybeat-schedule
-celerybeat.pid
-*.log
-logs/
-
-# =========================
-# Backup and miscellaneous
-# =========================
-*.bak
-*.swp
-*.tmp
-*.orig
-*.save
-*.log.*
 
 # =========================
 # pytest cache
