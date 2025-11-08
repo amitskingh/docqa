@@ -26,7 +26,7 @@ test*.db
 # **/migrations/
 
 # Media and Static files
-/media/
+media/
 staticfiles/
 static/
 assets/
